@@ -1,0 +1,11 @@
+.assortment {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+.title {
+    text-align: center;
+    font-size: 60px;
+    padding: 60px;
+}

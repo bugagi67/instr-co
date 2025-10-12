@@ -1,0 +1,26 @@
+.bottom {
+    background-color: #f2f2f2;
+}
+
+.bottom_wrapper {
+    display: flex;
+    padding: 10px 40px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bottom_wrapper img {
+    width: 40px;
+    height: 40px;
+}
+
+.bottom_wrapper img:hover {
+    background-color: #ffffff;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.bottom_wrapper h5 {
+    font-size: 25px;
+    font-weight: 400;
+}

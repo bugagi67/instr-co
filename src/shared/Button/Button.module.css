@@ -1,0 +1,13 @@
+.main_button {
+    min-width: 290px;
+    color: #fff;
+    font-size: 26px;
+    background-color: #df2528;
+    padding: 15px;
+    border-radius: 4px;
+    margin-top: 49px;
+}
+
+.main_button:hover {
+    background-color: #f0484b;
+}

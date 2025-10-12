@@ -1,0 +1,22 @@
+.partners {
+    padding: 200px 10px;
+}
+
+.partners h4 {
+    text-align: center;
+    font-size: 60px;
+    padding: 60px;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5%;
+}
+
+.wrapper img {
+    object-fit: contain;
+    width: 19%;
+    height: 300px;
+}

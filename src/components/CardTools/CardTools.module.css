@@ -1,0 +1,46 @@
+.card_tools_production {
+    width: 400px;
+    height: 500px;
+    background-image: url("../../assets/production.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    border: 1px solid rgb(214, 214, 214);
+    border-radius: 6px;
+    padding: 10px 20px;
+    background-color: #fff;
+}
+
+.card_tools_construction {
+    width: 400px;
+    height: 500px;
+    background-image: url("../../assets/construction.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: 30px;
+    background-position-y: 300px;
+    border: 1px solid rgb(214, 214, 214);
+    border-radius: 6px;
+    padding: 10px 20px;
+    background-color: #fff;
+}
+
+.card_tools_car_service {
+    width: 400px;
+    height: 500px;
+    background-image: url("../../assets/Gemini.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    border: 1px solid rgb(214, 214, 214);
+    border-radius: 6px;
+    padding: 10px 20px;
+    background-color: #fff;
+}
+
+.card_tools_production,
+.card_tools_construction,
+.card_tools_car_service h4 {
+    font-size: 30px;
+}
+
