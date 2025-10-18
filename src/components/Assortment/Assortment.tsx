@@ -8,8 +8,8 @@ export const Assortment = () => {
         <div id="assortment">
             <h4 className={styles.title}>Ассортимент</h4>
             <div className={styles.assortment}>
-            {Object.entries(CATEGORY_TOOLS_DATA).map((item) => {
-                return <CardTools item={item}/>
+            {Object.entries(CATEGORY_TOOLS_DATA).map((item, id) => {
+                return <CardTools key={id} item={item}/>
             } )}
             </div>
         </div>

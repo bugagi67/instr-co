@@ -9,12 +9,14 @@
 
 @media (max-width: 768px) {
     .map_container {
-        height: 400px;
+        height: 700px;
+        width: 100%;
     }
 }
 
 @media (max-width: 480px) {
     .map_container {
-        height: 300px;
+        height: 400px;
+        width: 100%;
     }
 }
