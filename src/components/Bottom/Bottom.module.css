@@ -12,13 +12,11 @@
 }
 
 .bottom_wrapper img {
-    width: 40px;
-    height: 40px;
+    width: 120px;
+    height: 60px;
 }
 
 .bottom_wrapper img:hover {
-    background-color: #ffffff;
-    border-radius: 50%;
     cursor: pointer;
 }
 

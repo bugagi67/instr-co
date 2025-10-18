@@ -1,4 +1,5 @@
 import styles from "./Bottom.module.css"
+import logo from "../../assets/logo/LOGO.png"
 import { handleClick } from "../../utils/handleClickScroll"
 import { useState } from "react"
 
@@ -8,6 +9,7 @@ export const Bottom = () => {
     return (
         <div className={styles.bottom}>
             <div className={styles.bottom_wrapper} id="container">
+              <a href="/"><img src={ logo } alt="Лого"/></a>
                 <h5>ООО "Инструмент компани" 2025</h5>
                 <svg onMouseEnter={() => setMouseEnter(true)} onMouseLeave={() => setMouseEnter(false)} onClick={() => handleClick("header")} width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <circle cx="18" cy="18" r="17.5" stroke={mouseEnter ? "#df2528" : "#929292ff"}/>
