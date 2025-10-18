@@ -1,5 +1,5 @@
 import styles from "./Footer.module.css"
-import { YaMaps } from "../YaMaps/YaMaps"
+import { YaMaps } from "../../shared/YaMaps/YaMaps"
 
 export const Footer = () => {
     return (
@@ -18,7 +18,7 @@ export const Footer = () => {
                         <br />
 
                         <h5>Телефон</h5>
-                        <a className={styles.text_phone} href="tel:+79206649068">+7-920-664-90-68</a>
+                        <a className={styles.text_phone} href="tel:+79525371199">+7-952-537-11-99</a>
                         <br />
                         <br />
 

@@ -1,15 +1,10 @@
-import logo from "../../assets/logo/logoNotBack.png"
+import logo from "../../assets/logo/LOGO.png"
+import styles from "./Logo.module.css"
 
-export type STYLE = {
-    style: {
-        width: string
-    }
-}
-
-export const Logo = ({ style }: STYLE) => {
+export const Logo = () => {
     return (
         <div>
-            <a href="/"><img style={{ width: `${style.width}`, marginLeft: "-65px" }} src={logo} alt="Логотип" /></a>
+            <a href="/"><img className={styles.img_logo} src={logo} alt="Логотип" /></a>
         </div>
     )
 }

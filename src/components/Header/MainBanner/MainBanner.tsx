@@ -9,7 +9,6 @@ export const MainBanner = () => {
         }
     }
 
-
     return (
         <div className={styles.main_banner}>
             <div className={styles.content_banner}>
@@ -18,7 +17,6 @@ export const MainBanner = () => {
                 </div>
                 <Button title="Ассортимент" styleType="main_button" onClick={() => handleClick("assortment")} />
             </div>
-
         </div>
     )
 }

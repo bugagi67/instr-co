@@ -4,7 +4,31 @@
 }
 
 .about_as h4 {
-    font-size: 66px;
-    margin-bottom: 40px;
+    font-size: 60px;
     text-align: center;
+    padding: 60px;
+}
+
+@media (max-width: 768px) {
+    .about_as {
+        padding: 50px 20px;
+        font-size: 18px;
+    }
+
+    .about_as h4 {
+        font-size: 32px;
+        padding: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    .about_as {
+        padding: 30px 15px;
+        font-size: 16px;
+    }
+
+    .about_as h4 {
+        font-size: 28px;
+        padding: 20px;
+    }
 }

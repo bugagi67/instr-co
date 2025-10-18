@@ -1,6 +1,7 @@
 .footer {
     background-color: #f2f2f2;
     border-bottom: 1px solid #ababab;
+    padding: 40px 20px;
 }
 
 .title {
@@ -13,6 +14,8 @@
     display: flex;
     justify-content: start;
     align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
 }
 
 .text_content_wrapper {
@@ -21,15 +24,80 @@
 
 .text_content_wrapper h5 {
     font-size: 30px;
+    margin-bottom: 20px;
 }
 
 .text {
     font-size: 25px;
+    margin-bottom: 15px;
 }
 
 .text_phone {
     font-size: 25px;
     text-decoration: none;
     color: black;
+}
+
+@media (max-width: 768px) {
+    .footer {
+        padding: 30px 15px;
+    }
+
+    .title {
+        font-size: 32px;
+        padding: 30px;
+    }
+
+    .contact_content {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .text_content_wrapper {
+        padding: 20px;
+    }
+
+    .text_content_wrapper h5 {
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+
+    .text {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .text_phone {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer {
+        padding: 20px 10px;
+    }
+
+    .title {
+        font-size: 28px;
+        padding: 20px;
+    }
+
+    .text_content_wrapper {
+        padding: 15px;
+    }
+
+    .text_content_wrapper h5 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .text {
+        font-size: 16px;
+        margin-bottom: 8px;
+    }
+
+    .text_phone {
+        font-size: 16px;
+    }
 }
 

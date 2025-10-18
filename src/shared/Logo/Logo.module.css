@@ -1,0 +1,11 @@
+@media (min-width: 801px) {
+    .img_logo {
+        width: 230px;
+    }
+}
+
+@media (max-width: 800px) {
+    .img_logo {
+        width: 120px;
+    }
+}

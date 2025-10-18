@@ -51,3 +51,40 @@
 .btn:hover {
     color: #df2528;
 }
+
+/* Медиа-запрос для мобильных устройств */
+@media (max-width: 768px) {
+    .carousel {
+        gap: 8px; /* Уменьшаем отступы */
+    }
+
+    .track {
+        gap: 8px;
+        padding: 4px;
+    }
+
+    .item {
+        width: 280px; /* Уменьшаем ширину карточки */
+        height: 300px; /* Уменьшаем высоту карточки */
+    }
+
+    .btn {
+        width: 40px; /* Уменьшаем размер кнопок */
+        height: 40px;
+        font-size: 24px;
+    }
+}
+
+/* Для очень маленьких экранов */
+@media (max-width: 320px) {
+    .item {
+        width: 240px;
+        height: 260px;
+    }
+
+    .btn {
+        width: 30px;
+        height: 30px;
+        font-size: 20px;
+    }
+}

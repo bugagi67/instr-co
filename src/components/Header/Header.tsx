@@ -5,15 +5,11 @@ export { MainBanner } from "./MainBanner/MainBanner"
 import { HeaderContact } from "./HeaderContact/HeaderContact"
 import styles from "./Header.module.css"
 
-const LogoStyle = {
-    width: "400px"
-}
-
 export const Header = () => {
     return (
         <>
             <div className={styles.header} id="header">
-                <Logo style={LogoStyle} />
+                <Logo />
                 <Navigation />
                 <HeaderContact />
             </div>

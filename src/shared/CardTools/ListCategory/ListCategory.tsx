@@ -8,12 +8,12 @@ type ListCategoryProps = {
 
 export const ListCategory = ({ list }: ListCategoryProps) => {
   return (
-    <div>
-      {list.map((item, idx) => (
-        <div key={idx} className={styles.item_list}>
-          {item}
-        </div>
-      ))}
+    <div className={styles.list_category}>
+      <ul>
+        {list.map((item, idx) => (
+          <li key={idx}>{item}</li>
+        ))}
+      </ul>
     </div>
-  );
-};
+  )
+}

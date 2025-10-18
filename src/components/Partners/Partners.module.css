@@ -20,3 +20,32 @@
     width: 19%;
     height: 300px;
 }
+
+@media (max-width: 768px) {
+    .wrapper {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .wrapper img {
+        width: 80%;
+        height: 200px;
+    }
+
+    .partners h4 {
+        font-size: 32px;
+        padding: 30px;
+    }
+
+    .partners {
+        padding: 100px 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .partners h4 {
+        font-size: 28px;
+        padding: 20px;
+    }
+}

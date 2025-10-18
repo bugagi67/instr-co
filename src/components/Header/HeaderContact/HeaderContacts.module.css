@@ -4,5 +4,42 @@
     align-items: flex-end;
     justify-content: center;
     font-size: 2rem;
+}
+
+.header_contacts {
+    display: flex;
     flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.header_contacts a {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.header_contacts svg {
+    width: 24px;
+    height: 24px;
+}
+
+.phone_link {
+    text-decoration: none;
+    color: black;
+}
+
+/* Важно: этот медиа-запрос должен быть первым */
+@media (min-width: 1061px) {
+    .contact_header {
+        display: flex;
+    }
+}
+
+@media (max-width: 1060px) {
+    .contact_header  {
+        display: none;
+    }
 }

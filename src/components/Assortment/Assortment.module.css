@@ -1,11 +1,38 @@
 .assortment {
-    display: flex;
-    gap: 40px;
-    justify-content: center;
+    column-count: 3; /* Количество колонок */
+    column-gap: 40px; /* Расстояние между колонками */
+    padding: 40px;
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
 }
 
 .title {
     text-align: center;
     font-size: 60px;
     padding: 60px;
+}
+
+@media (max-width: 1200px) {
+    .assortment {
+        column-count: 2;
+    }
+}
+
+@media (max-width: 768px) {
+    .assortment {
+        column-count: 1;
+    }
+    
+    .title {
+        font-size: 32px;
+        padding: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    .title {
+        font-size: 28px;
+        padding: 20px;
+    }
 }

@@ -1,12 +1,14 @@
 .bottom {
     background-color: #f2f2f2;
+    padding: 40px 20px;
 }
 
 .bottom_wrapper {
     display: flex;
-    padding: 10px 40px;
     justify-content: space-between;
     align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
 }
 
 .bottom_wrapper img {
@@ -23,4 +25,61 @@
 .bottom_wrapper h5 {
     font-size: 25px;
     font-weight: 400;
+}
+
+.copy {
+    font-size: 18px;
+    color: #666;
+}
+
+.social {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.social a {
+    color: #666;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social a:hover {
+    color: #df2528;
+}
+
+@media (max-width: 768px) {
+    .bottom {
+        padding: 30px 15px;
+    }
+
+    .bottom_wrapper {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .copy {
+        font-size: 16px;
+        order: 2;
+    }
+
+    .social {
+        order: 1;
+        gap: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    .bottom {
+        padding: 20px 10px;
+    }
+
+    .copy {
+        font-size: 14px;
+    }
+
+    .social {
+        gap: 20px;
+    }
 }
