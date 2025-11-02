@@ -26,7 +26,7 @@ export const Footer = () => {
                         <p className={styles.text}>ИНН: 6732244165</p>
                         <p className={styles.text}>КПП: 673201001</p>
                         <p className={styles.text}>ОГРН: 1236700003209</p>
-                        <p className={styles.text}>Фактический адрес: г. Смоленск, ул. Соболева, д. 38А</p>
+                        <p className={styles.text}>Фактический адрес: г. Смоленск, ул. Шевченко, 87Б</p>
                     </div>
                 </div>
             </div>
