@@ -16,6 +16,6 @@ export const navigationData: NavItem[] = [
 ];
 
 export const CONTACTS_HEADER: ContactsHeader = {
-  phoneNumber: "+7-953-537-11-99",
+  phoneNumber: "+7-952-537-11-99",
   email: "snab@tool-company67.ru",
 };
