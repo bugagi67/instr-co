@@ -10,7 +10,7 @@ export const Footer = () => {
                     <YaMaps />
                     <div className={styles.text_content_wrapper}>
                         <h5>Адрес</h5>
-                        <p className={styles.text}>г. Смоленск, ул. Соболева д.38А</p>
+                        <p className={styles.text}>г. Смоленск, ул. Шевченко, 87Б</p>
                         <br />
                         <h5>Почта</h5>
                         <a className={styles.text} href="mailto:snab@tool-company67.ru">snab@tool-company67.ru</a>
